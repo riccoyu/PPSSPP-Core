@@ -135,7 +135,7 @@ PPSSPPGameCore *_current = 0;
     g_Config.internalDataDirectory = directoryString.fileSystemRepresentation;
     g_Config.iGPUBackend           = (int)GPUBackend::OPENGL;
     g_Config.bHideStateWarnings    = false;
-    g_Config.iLanguage             = PSP_SYSTEMPARAM_LANGUAGE_ENGLISH;
+    g_Config.iLanguage             = PSP_SYSTEMPARAM_LANGUAGE_CHINESE_SIMPLIFIED;
     
     _coreParam.cpuCore      = CPUCore::JIT;
     _coreParam.gpuCore      = GPUCORE_GLES;
